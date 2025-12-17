@@ -1,38 +1,40 @@
-Terms of Service for Internal TikTok Data Analysis Tool
-Last Updated: September 24, 2025
+Terms of Service for 100points
+Last Updated: December 15, 2025
 
-1. Purpose of this Document
-
-This document outlines the purpose and principles of operation for an internal, non-commercial analytical tool ("the Tool"). This is not a public-facing application and is intended for internal analysis only. There are no public end-users accepting these terms.
+1. Introduction
+Welcome to 100points. By accessing or using the 100points application ("the App," "we," or "our"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.
 
 2. Description of Service
+100points is an analytical tool designed to utilize the official TikTok API for the purpose of extracting statistical data for performance review. The service provided by 100points includes:
 
-The Tool utilizes the official TikTok API for the sole purpose of extracting statistical data for performance review. The service includes:
+Fetching public account metrics such as follower counts, view counts, and engagement statistics.
 
-Fetching public account metrics such as follower and view counts.
+Displaying this data within an internal analytical dashboard.
 
-Displaying this data within a private, internal dashboard.
+100points does not upload, modify, schedule, or automate any video content on behalf of the user.
 
-The Tool does not upload, modify, schedule, or automate any video content.
-
-3. Developer Responsibilities
-
-The developer and operator of this Tool agree to:
+3. User Responsibilities
+By using 100points, you agree to:
 
 Strictly comply with TikTok's Terms of Service, Community Guidelines, and Developer Policies.
 
-Use the Tool only for its intended analytical purpose.
+Use 100points only for its intended analytical purpose.
 
 Not use the service for any illegal or unauthorized purpose.
 
-Respect all applicable laws in their jurisdiction.
+Respect all applicable laws in your jurisdiction regarding data privacy and online conduct.
 
 4. Data Handling and Privacy
-
-4.1. The handling of any accessed data is governed by our Privacy Policy.
-4.2. The Tool is designed to collect only the minimum necessary statistical data required for its analytical function.
-4.3. All collected data is for internal review only and is never sold to or shared with third parties.
+4.1. The handling of any data accessed by 100points is governed by our Privacy Policy. 4.2. 100points is designed to collect only the minimum necessary statistical data required for its analytical function. 4.3. All collected data is used for analytical review and is never sold to or shared with third parties.
 
 5. Compliance with Platform Policies
+The use of 100points and the data it processes is governed entirely by the TikTok API Terms of Service. We reserve the right to modify or terminate the service at any time to ensure continued compliance with TikTok's policies.
 
-The use of this Tool and the data it processes is governed entirely by the TikTok API Terms of Service. This document serves as a declaration of intent to operate fully within those rules.
+6. Termination
+We may terminate or suspend access to 100points immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+
+7. Changes to Terms
+We reserve the right, at our sole discretion, to modify or replace these Terms at any time. The most current version of the Terms of Service for 100points will always be posted at this URL.
+
+8. Contact Us
+If you have any questions about these Terms, please contact us at: Email: gazakbaev_s@100points.ru

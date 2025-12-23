@@ -2,36 +2,85 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>100Points App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100Points - TikTok Analytics Tool</title>
     <meta name="tiktok-developers-site-verification" content="5qb3Mw1K6MzBiTrvQCNj3lvBflj0wNia" />
     
     <style>
-        body { font-family: sans-serif; padding: 40px; text-align: center; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            padding: 40px 20px; 
+            text-align: center; 
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        h1 { margin-bottom: 10px; color: #000; }
+        .subtitle { color: #666; margin-bottom: 40px; font-size: 18px; }
+        
+        .features-container {
+            text-align: left;
+            background: #f5f5f5;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+        .features-container h2 { margin-top: 0; font-size: 22px; }
+        .features-container ul { padding-left: 20px; }
+        .features-container li { margin-bottom: 10px; }
+        
         .login-btn {
-            background-color: #000;
+            background-color: #fe2c55; /* TikTok Brand Color */
             color: #fff;
-            padding: 15px 30px;
+            padding: 16px 32px;
             text-decoration: none;
             font-size: 18px;
-            border-radius: 4px;
+            font-weight: 600;
+            border-radius: 8px;
             display: inline-block;
-            margin-top: 20px;
+            transition: background 0.2s;
         }
-        .login-btn:hover { background-color: #333; }
+        .login-btn:hover { background-color: #e0244a; }
+        
+        .footer { margin-top: 60px; font-size: 13px; color: #aaa; border-top: 1px solid #eee; padding-top: 20px;}
+        .footer a { color: #888; text-decoration: none; margin: 0 10px; }
+        .footer a:hover { text-decoration: underline; color: #555; }
     </style>
 </head>
 <body>
-    <h1>Welcome to 100points</h1>
+
+    <h1>100Points</h1>
+    <p class="subtitle">Professional dashboard for content creators to track growth.</p>
+
+    <div class="features-container">
+        <h2>Service Description</h2>
+        <p>100Points is a specialized analytics service designed for TikTok creators. We provide a secure dashboard that aggregates your account data to help you visualize your channel's performance. Our service allows users to track the correlation between the number of published videos and audience growth, offering clear insights for your content strategy.</p>
     
+        <h3>Key Features:</h3>
+        <ul>
+            <li><strong>Deep Insights:</strong> Analyze views, follower growth, and the number of published videos.</li>
+            <li><strong>Growth Strategy:</strong> Use data to make informed decisions for promoting your channel.</li>
+            <li><strong>Secure Connection:</strong> Safe integration via the official TikTok API.</li>
+        </ul>
+    
+        <p style="margin-top: 20px; font-size: 14px; color: #666;">
+            To access your analytics dashboard, please log in below.
+        </p>
+    </div>
+
     <a href="https://functions.yandexcloud.net/d4ebook35bsu8id4sj9u" class="login-btn">
         Log in with TikTok
     </a>
 
-    <br><br><br>
-    <hr>
-    <p><small>
-        <a href="terms-of-service.html">Terms of Service</a> | 
-        <a href="privacy-policy.html">Privacy Policy</a>
-    </small></p>
+    <div class="footer">
+        <p>&copy; 2025 100Points App. All rights reserved.</p>
+        <p>
+            <a href="terms-of-service.html">Terms of Service</a> | 
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </p>
+    </div>
+
 </body>
 </html>
